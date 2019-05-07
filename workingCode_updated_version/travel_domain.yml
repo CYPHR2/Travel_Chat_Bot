@@ -1,0 +1,53 @@
+slots:
+ location_state:
+   type: text
+ location_country:
+   type: text
+ location_city:
+   type: text
+ user_name:
+   type: unfeaturized
+
+
+intents:
+ - greet
+ - goodbye
+ - inform
+ - ask_tourist_spot_country
+ - get_user_name
+
+
+
+entities:
+ - location_state
+ - location_city
+ - location_country
+ - user_name
+
+templates:
+  utter_greet:
+    - 'Hi!!!'
+    - 'Hello'
+    - 'hey!'
+  utter_greet_with_name:
+    - 'Hey there! {user_name}!. How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_ask_location:
+    - 'In what location?'
+  utter_ask_tourist_spot_country:
+    - 'Here are some famous places in '
+  utter_ask_user_name:
+    -'hello user,before we go ahead,lets personlize I'm Thanos ,what is your name'
+  
+   
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_location
+ - action_travel
+ - utter_ask_user_name
+ - utter_greet_with_name
