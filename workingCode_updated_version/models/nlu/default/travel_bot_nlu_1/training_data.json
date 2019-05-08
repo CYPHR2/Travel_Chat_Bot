@@ -2,114 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 11,
-            "end": 15,
-            "value": "hulk",
-            "entity": "'user_name'"
-          }
-        ],
-        "text": "my name is hulk"
-      },
-      {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 11,
-            "end": 15,
-            "value": "hulk",
-            "entity": "'user_name'"
-          }
-        ],
-        "text": "my name is hulk"
-      },
-      {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 11,
-            "end": 16,
-            "value": "sunil",
-            "entity": "user_name"
-          }
-        ],
-        "text": "my name is sunil"
-      },
-      {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 20,
-            "end": 24,
-            "value": "riya",
-            "entity": "user_name"
-          }
-        ],
-        "text": "hi there my name is riya"
-      },
-      {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 14,
-            "end": 18,
-            "value": "riya",
-            "entity": "user_name"
-          }
-        ],
-        "text": "hi my name is riya"
-      },
-      {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 23,
-            "end": 30,
-            "value": "sparith",
-            "entity": "user_name"
-          }
-        ],
-        "text": "hello there my name is sparith"
-      },
-      {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 3,
-            "end": 9,
-            "value": "suresh",
-            "entity": "user_name"
-          }
-        ],
-        "text": "im suresh"
-      },
-      {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 4,
-            "end": 8,
-            "value": "tony",
-            "entity": "user_name"
-          }
-        ],
-        "text": "i'm tony"
-      },
-      {
-        "intent": "get_user_name",
-        "entities": [
-          {
-            "start": 24,
-            "end": 29,
-            "value": "steve",
-            "entity": "user_name"
-          }
-        ],
-        "text": "hello,thanos my name is steve"
-      },
-      {
         "intent": "ask_howdoing",
         "text": "Ahoy matey how are you?"
       },
@@ -758,6 +650,426 @@
         "text": "neither of these"
       },
       {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "hulk",
+            "entity": "'user_name'"
+          }
+        ],
+        "text": "my name is hulk"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "hulk",
+            "entity": "'user_name'"
+          }
+        ],
+        "text": "my name is hulk"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "sunil",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is sunil"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "riya",
+            "entity": "user_name"
+          }
+        ],
+        "text": "hi there my name is riya"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "riya",
+            "entity": "user_name"
+          }
+        ],
+        "text": "hi my name is riya"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "sparith",
+            "entity": "user_name"
+          }
+        ],
+        "text": "hello there my name is sparith"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "suresh",
+            "entity": "user_name"
+          }
+        ],
+        "text": "im suresh"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "tony",
+            "entity": "user_name"
+          }
+        ],
+        "text": "i'm tony"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "steve",
+            "entity": "user_name"
+          }
+        ],
+        "text": "hello,thanos my name is steve"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "sunil",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is sunil"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "suresh",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is suresh"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "supriya",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is supriya"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "ragavendra",
+            "entity": "'unfeaturized'"
+          }
+        ],
+        "text": "my name is ragavendra"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "ramesh",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is ramesh"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "suriya",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is suriya"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "bob",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is bob"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "tony stark",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is tony stark"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "steve rogers",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is steve rogers"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "gopi",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is gopi"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "sandesh",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is sandesh"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "reshma",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is reshma"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "kanthimathi",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is kanthimathi"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "keerthi",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is keerthi"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "punith",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is punith"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "ranjitha",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is ranjitha"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "prajwala",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is prajwala"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "mithiliy",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is mithiliy"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "jackie",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is jackie"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "modi",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is modi"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "rahul",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is rahul"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "chethan",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is chethan"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "ram",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is ram"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "aiswarriya",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is aiswarriya"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "priyanka",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is priyanka"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "dhoni",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is dhoni"
+      },
+      {
         "intent": "greet",
         "text": "Hi"
       },
@@ -1024,6 +1336,22 @@
       {
         "intent": "greet",
         "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
       }
     ],
     "regex_features": [],

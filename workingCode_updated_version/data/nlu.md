@@ -183,6 +183,31 @@
 - my name is [sunil](user_name)
 - my name is [suresh](user_name)
 - my name is [supriya](user_name)
+- my name is [ragavendra]('unfeaturized')
+- my name is [ramesh](user_name)
+- my name is [suriya](user_name)
+- my name is [bob](user_name)
+- my name is [tony stark](user_name)
+- my name is [steve rogers](user_name)
+- my name is [gopi](user_name)
+- my name is [sandesh](user_name)
+- my name is [reshma](user_name)
+- my name is [kanthimathi](user_name)
+- my name is [keerthi](user_name)
+- my name is [punith](user_name)
+- my name is [ranjitha](user_name)
+- my name is [prajwala](user_name)
+- my name is [mithiliy](user_name)
+- my name is [jackie](user_name)
+- my name is [modi](user_name)
+- my name is [rahul](user_name)
+- my name is [chethan](user_name)
+- my name is [ram](user_name)
+- my name is [aiswarriya](user_name)
+- my name is [priyanka](user_name)
+- my name is [dhoni](user_name)
+- my name is [likith](user_name)
+- my name is [vishal](user_name)
 
 ## intent:greet
 - Hi
@@ -255,3 +280,6 @@
 - hi
 - hello
 - hello
+- hey there
+- hello there
+- hello there

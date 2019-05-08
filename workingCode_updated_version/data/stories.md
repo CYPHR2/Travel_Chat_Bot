@@ -85,3 +85,26 @@
     - slot{"user_name": "supriya"}
     - utter_greet_with_name
 
+## Generated Story 6894614291485554352
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"'unfeaturized'": "ragavendra"}
+    - utter_greet_with_name
+
+## Generated Story 6620163803252858816
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "likith"}
+    - slot{"user_name": "likith"}
+    - utter_greet_with_name
+
+## Generated Story -8845963822272846510
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "vishal"}
+    - slot{"user_name": "vishal"}
+    - utter_greet_with_name
+
