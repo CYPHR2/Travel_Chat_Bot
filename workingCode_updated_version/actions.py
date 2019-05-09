@@ -2,8 +2,8 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import unicode_literals
 
-from rasa_core.actions.actions import Action
-from rasa_core.events import SlotSet
+from rasa_core_sdk import Action
+from rasa_core_sdk.events import SlotSet
 
 class ActionTravel(Action):
 	def name(self):
@@ -28,4 +28,15 @@ class ActionTravel(Action):
 		dispatcher.utter_message(response)
 		return [SlotSet('location',loc)]
 		
-		
+class ActionGetInfo(Action):
+	def name(self):
+		return 'get_info'
+	
+	def run(self, dispatcher, tracker, domain):
+		import wikipedia		
+		cityName = tracker.get_slot('famous_place')
+		data = wikipedia.WikipediaPage(title=cityName).summary
+		print(data)
+		dispatcher.utter_message(data)
+
+		return [SlotSet('famous_place'),cityName]

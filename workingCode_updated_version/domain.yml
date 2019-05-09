@@ -1,24 +1,30 @@
 %YAML 1.1
 ---
 actions:
-- utter_goodbye
-- utter_greet_with_name
-- action_travel
-- utter_greet
+- actions.ActionGetInfo
 - utter_ask_location
 - utter_ask_user_name
+- utter_greet_with_name
+- utter_goodbye
+- utter_greet
+- action_travel
 entities:
 - location_country
-- location_city
-- location_state
+- famous_place
 - user_name
+- location_state
+- location_city
 intents:
+- info_famous_place
+- bye
 - greet
 - get_user_name
 - goodbye
 - inform
 - ask_tourist_spot_country
 slots:
+  famous_place:
+    type: unfeaturized
   location_city:
     type: text
   location_country:
@@ -28,13 +34,14 @@ slots:
   user_name:
     type: unfeaturized
 templates:
+  perform_custom_action_for_famous_place:
+  - text: oryr irir  famous
   utter_ask_location:
   - text: In what location?
   utter_ask_tourist_spot_country:
-  - text: 'Here are some famous places in '
+  - text: Here are some famous places in
   utter_ask_user_name:
-  - text: "Hello there user before procced.I am Thanos, what is your name??"
-  - text: 'Hey user I am Thanos, what is your name??"
+  - text: hello user,before we go ahead,lets personlize I'm Thanos ,what is your name
   utter_goodbye:
   - text: Talk to you later.
   - text: Bye bye :(

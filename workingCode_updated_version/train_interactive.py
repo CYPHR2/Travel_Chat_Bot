@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 def run_travel_online(interpreter,
-                          domain_file="travel_domain.yml",
+                          domain_file="domain.yml",
                           training_data_file='data/stories.md'):
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")						  
     agent = Agent(domain_file,

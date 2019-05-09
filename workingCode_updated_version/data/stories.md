@@ -108,3 +108,23 @@
     - slot{"user_name": "vishal"}
     - utter_greet_with_name
 
+## Generated Story -7792242417124032404
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "steve"}
+    - slot{"user_name": "steve"}
+    - utter_greet_with_name
+* bye
+    - utter_goodbye
+
+## Generated Story 4458840267017490575
+* info_famous_place{"famous_place": "bommanhalli"}
+    - slot{"famous_place": "bommanhalli"}
+    - utter_greet
+
+## Generated Story 8518784050359689175
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - actions.ActionGetInfo
+

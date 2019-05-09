@@ -1,10 +1,17 @@
 {
   "states": [
+    "intent_ask_tourist_spot_country",
+    "intent_get_user_name",
     "intent_goodbye",
     "intent_greet",
     "intent_inform",
-    "entity_location",
-    "slot_location_0",
+    "entity_location_state",
+    "entity_location_city",
+    "entity_location_country",
+    "entity_user_name",
+    "slot_location_city_0",
+    "slot_location_country_0",
+    "slot_location_state_0",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
@@ -16,6 +23,8 @@
     "prev_utter_greet",
     "prev_utter_goodbye",
     "prev_utter_ask_location",
-    "prev_action_travel"
+    "prev_action_travel",
+    "prev_utter_ask_user_name",
+    "prev_utter_greet_with_name"
   ]
 }
