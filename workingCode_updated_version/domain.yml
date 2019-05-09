@@ -1,20 +1,21 @@
 %YAML 1.1
 ---
 actions:
-- utter_ask_location
+- utter_greet_with_name
 - get_infoX
-- utter_ask_user_name
-- utter_greet
+- utter_ask_location
 - utter_goodbye
 - action_travel
-- utter_greet_with_name
+- utter_greet
+- utter_ask_user_name
 entities:
 - location_city
-- user_name
-- location_country
 - famous_place
-- location_state
+- user_name
 - famous_places
+- famous_place_city
+- location_country
+- location_state
 intents:
 - info_famous_place
 - get_user_name
@@ -26,6 +27,8 @@ intents:
 slots:
   famous_place:
     type: unfeaturized
+  famous_place_city:
+    type: text
   location_city:
     type: text
   location_country:

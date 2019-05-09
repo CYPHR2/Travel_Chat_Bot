@@ -197,3 +197,53 @@
     - slot{"famous_place": "bangalore"}
     - get_infoX
 
+## Generated Story 789030266970395540
+* info_famous_place{"famous_place": "mumbai"}
+    - slot{"famous_place": "mumbai"}
+    - get_infoX
+
+## Generated Story -8932095396499843099
+* info_famous_place{"famous_place": "mumbai"}
+    - slot{"famous_place": "mumbai"}
+    - get_infoX
+
+## Generated Story 7208102477947367890
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+
+## Generated Story -4071202661671795837
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+
+## Generated Story 3971070733052365542
+* info_famous_place{"famous_place": "delhi"}
+    - slot{"famous_place": "delhi"}
+    - get_infoX
+
+## Generated Story -7401019962674059017
+* info_famous_place{"famous_place": "udupi"}
+    - slot{"famous_place": "udupi"}
+    - get_infoX
+
+## Generated Story -6961423135240286076
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+
+## Generated Story 8531587953509589802
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+
+## Generated Story 3608500816300238506
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+
+## Generated Story -4041408924421619863
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+

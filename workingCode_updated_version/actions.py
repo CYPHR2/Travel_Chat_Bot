@@ -38,15 +38,16 @@ class ActionGetInfo(Action):
 		data = wikipedia.WikipediaPage(title=cityName).summary
 		try:		
 			print(data)
-			import pdb;pdb.set_trace()			
+			#import pdb;pdb.set_trace()			
 			print("----------------XXXXXXXXXXXXX__________________")
 			str_data = str(data)
 			print(str_data)
 			print('IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII')
-			response =data
+			format_response ="88888888888".format(cityName)
+			response = data
 			dispatcher.utter_message(response)
-
-			return [SlotSet('famous_place'),cityName]
+			return [SlotSet('famous_place_city'),cityName]
+			#return []
 		except Exception as ex:
 			print("Encountred Exception :--"+str(ex))
 			

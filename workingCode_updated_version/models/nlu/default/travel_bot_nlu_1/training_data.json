@@ -1110,6 +1110,78 @@
         "text": "my name is steve"
       },
       {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "rahul",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is rahul"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "suresh",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is suresh"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "ranjitha",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is ranjitha"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "sunil",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is sunil"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "sunil",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is sunil"
+      },
+      {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "reshma",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is reshma"
+      },
+      {
         "intent": "greet",
         "text": "Hi"
       },
@@ -1404,6 +1476,30 @@
       {
         "intent": "greet",
         "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
       },
       {
         "intent": "info_famous_place",
@@ -24408,6 +24504,210 @@
           }
         ],
         "text": "Say about  Food in Udaipur"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "give me information about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "Tell me about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "give information about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "give me information about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "mumbai",
+            "entity": "famous_places"
+          }
+        ],
+        "text": "give me informaion about mumbai"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "mumbai",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about mumbai"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "mumbai",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about mumbai"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "mumbai",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about mumbai"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about bangalore"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "delhi",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "Tell me about delhi"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "udupi",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about udupi"
+      },
+      {
+        "intent": "info_famous_place",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bangalore",
+            "entity": "famous_place"
+          }
+        ],
+        "text": "tell me about bangalore"
       },
       {
         "intent": "info_famous_place",
