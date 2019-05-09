@@ -1,24 +1,25 @@
 %YAML 1.1
 ---
 actions:
-- actions.ActionGetInfo
 - utter_ask_location
+- get_infoX
 - utter_ask_user_name
-- utter_greet_with_name
-- utter_goodbye
 - utter_greet
+- utter_goodbye
 - action_travel
+- utter_greet_with_name
 entities:
+- location_city
+- user_name
 - location_country
 - famous_place
-- user_name
 - location_state
-- location_city
+- famous_places
 intents:
 - info_famous_place
-- bye
-- greet
 - get_user_name
+- greet
+- bye
 - goodbye
 - inform
 - ask_tourist_spot_country

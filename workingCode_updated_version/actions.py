@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
+import wikipedia
 
 class ActionTravel(Action):
 	def name(self):
@@ -30,13 +31,22 @@ class ActionTravel(Action):
 		
 class ActionGetInfo(Action):
 	def name(self):
-		return 'get_info'
+		return 'get_infoX'
 	
-	def run(self, dispatcher, tracker, domain):
-		import wikipedia		
+	def run(self, dispatcher, tracker, domain):		
 		cityName = tracker.get_slot('famous_place')
 		data = wikipedia.WikipediaPage(title=cityName).summary
-		print(data)
-		dispatcher.utter_message(data)
+		try:		
+			print(data)
+			import pdb;pdb.set_trace()			
+			print("----------------XXXXXXXXXXXXX__________________")
+			str_data = str(data)
+			print(str_data)
+			print('IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII')
+			response =data
+			dispatcher.utter_message(response)
 
-		return [SlotSet('famous_place'),cityName]
+			return [SlotSet('famous_place'),cityName]
+		except Exception as ex:
+			print("Encountred Exception :--"+str(ex))
+			

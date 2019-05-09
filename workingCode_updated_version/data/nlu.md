@@ -210,6 +210,12 @@
 - my name is [likith](user_name)
 - my name is [vishal](user_name)
 - my name is [steve](user_name)
+- my name is [rahul](user_name)
+- my name is [suresh](user_name)
+- my name is [ranjitha](user_name)
+- my name is [sunil](user_name)
+- my name is [sunil](user_name)
+- my name is [reshma](user_name)
 
 ## intent:greet
 - Hi
@@ -286,6 +292,12 @@
 - hello there
 - hello there
 - hello there
+- hi
+- hey there
+- hey there
+- hey
+- hi
+- hi
 
 ## intent:info_famous_place
 - Give me information about [bommanhalli](famous_place)
@@ -2207,3 +2219,11 @@
 - Say about  [Food in Udaipur](famous_place)
 - tell me about [bangalore](famous_place)
 - give me information about [bangalore](famous_place)
+- Tell me about [bangalore](famous_place)
+- tell me about [bangalore](famous_place)
+- give information about [bangalore](famous_place)
+- give me information about [bangalore](famous_place)
+- give me informaion about [mumbai](famous_places)
+- tell me about [bangalore](famous_place)
+- tell me about [mumbai](famous_place)
+- tell me about [bangalore](famous_place)

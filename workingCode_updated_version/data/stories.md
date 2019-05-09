@@ -123,8 +123,77 @@
     - slot{"famous_place": "bommanhalli"}
     - utter_greet
 
-## Generated Story 8518784050359689175
+
+## Generated Story 5253837261163613413
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "rahul"}
+    - slot{"user_name": "rahul"}
+    - utter_greet_with_name
 * info_famous_place{"famous_place": "bangalore"}
     - slot{"famous_place": "bangalore"}
-    - actions.ActionGetInfo
+    - get_infoX
+
+## Generated Story -5622067867435041946
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "suresh"}
+    - slot{"user_name": "suresh"}
+    - utter_greet_with_name
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+
+## Generated Story -2663961420352476723
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "ranjitha"}
+    - slot{"user_name": "ranjitha"}
+    - utter_greet_with_name
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+
+## Generated Story -3468182834608522441
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "sunil"}
+    - slot{"user_name": "sunil"}
+    - utter_greet_with_name
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+* info_famous_place{"famous_places": "mumbai"}
+    - get_infoX
+
+## Generated Story 1655007514570843274
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "sunil"}
+    - slot{"user_name": "sunil"}
+    - utter_greet_with_name
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
+
+## Generated Story -110713385169328155
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "reshma"}
+    - slot{"user_name": "reshma"}
+    - utter_greet_with_name
+* info_famous_place{"famous_place": "mumbai"}
+    - slot{"famous_place": "mumbai"}
+    - get_infoX
+
+## Generated Story -9088807762154073645
+* info_famous_place{"famous_place": "bangalore"}
+    - slot{"famous_place": "bangalore"}
+    - get_infoX
 
