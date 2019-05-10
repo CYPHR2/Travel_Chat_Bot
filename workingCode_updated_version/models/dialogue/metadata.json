@@ -3,7 +3,8 @@
     "action_listen": {
       "slots": [
         "location_state",
-        "user_name"
+        "user_name",
+        "famous_place"
       ]
     },
     "utter_ask_user_name": {
@@ -12,13 +13,16 @@
     "null": {
       "slots": []
     },
+    "utter_greet_with_name": {
+      "slots": []
+    },
+    "action_travel": {
+      "slots": []
+    },
     "action_restart": {
       "slots": []
     },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "utter_greet_with_name": {
+    "get_infoX": {
       "slots": []
     },
     "utter_greet": {
@@ -27,7 +31,7 @@
     "utter_ask_location": {
       "slots": []
     },
-    "action_travel": {
+    "utter_goodbye": {
       "slots": []
     }
   },
@@ -47,7 +51,7 @@
     "rasa_core.policies.form_policy.FormPolicy",
     "policy.TravelPolicy"
   ],
-  "trained_at": "20190509-012340",
+  "trained_at": "20190510-131200",
   "rasa_core": "0.14.1",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.3"

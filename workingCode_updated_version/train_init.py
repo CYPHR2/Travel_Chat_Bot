@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
 	policies_var[0] = KerasPolicy(epochs=2)
 
-	agent = Agent('travel_domain.yml', policies = policies_var)
+	agent = Agent('domain.yml', policies = policies_var)
 	
 	#training_data_file = './data/stories.md'
 	training_data = agent.load_data('./data/stories.md')

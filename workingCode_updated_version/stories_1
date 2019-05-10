@@ -1,0 +1,4 @@
+## Story 1
+* info_famous_place{"famous_place":"placeName"}
+	- slot{"famous_place": "placeName"}
+	- get_infoX	

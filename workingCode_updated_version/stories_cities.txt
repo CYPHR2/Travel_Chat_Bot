@@ -1,0 +1,140 @@
+## Generated Story 500 
+* get_famous_place{"famous_places_2": "Jaipur"}
+	- slot{"famous_places_2": "Jaipur"}
+	- get_famous_place
+
+## Generated Story 501
+* get_famous_place{"famous_places_2": "Udaipur"}
+	- slot{"famous_places_2": "Udaipur"}
+	- get_famous_place
+
+## Generated Story 502
+* get_famous_place{"famous_places_2": "Jodhpur"}
+	- slot{"famous_places_2": "Jodhpur"}
+	- get_famous_place
+
+## Generated Story  503
+* get_famous_place{"famous_places_2": "Jaisalmer"}
+	- slot{"famous_places_2": "Jaisalmer"}
+	- get_famous_place
+
+## Generated Story   504
+* get_famous_place{"famous_places_2": "Pushkar"}
+	- slot{"famous_places_2": "Pushkar"}
+	- get_famous_place
+
+## Generated Story    505
+* get_famous_place{"famous_places_2": "Ajmer"}
+	- slot{"famous_places_2": "Ajmer"}
+	- get_famous_place
+
+## Generated Story     506
+* get_famous_place{"famous_places_2": "Goa"}
+	- slot{"famous_places_2": "Goa"}
+	- get_famous_place
+
+## Generated Story      507
+* get_famous_place{"famous_places_2": "Delhi"}
+	- slot{"famous_places_2": "Delhi"}
+	- get_famous_place
+
+## Generated Story       508
+* get_famous_place{"famous_places_2": "Mumbai"}
+	- slot{"famous_places_2": "Mumbai"}
+	- get_famous_place
+
+## Generated Story        509
+* get_famous_place{"famous_places_2": "Pune"}
+	- slot{"famous_places_2": "Pune"}
+	- get_famous_place
+
+## Generated Story         510
+* get_famous_place{"famous_places_2": "Jammu"}
+	- slot{"famous_places_2": "Jammu"}
+	- get_famous_place
+
+## Generated Story          511
+* get_famous_place{"famous_places_2": "Belgaum"}
+	- slot{"famous_places_2": "Belgaum"}
+	- get_famous_place
+
+## Generated Story           512
+* get_famous_place{"famous_places_2": "Bangalore"}
+	- slot{"famous_places_2": "Bangalore"}
+	- get_famous_place
+
+## Generated Story            513
+* get_famous_place{"famous_places_2": "Ladakh"}
+	- slot{"famous_places_2": "Ladakh"}
+	- get_famous_place
+
+## Generated Story             514
+* get_famous_place{"famous_places_2": "Wayanad"}
+	- slot{"famous_places_2": "Wayanad"}
+	- get_famous_place
+
+## Generated Story              515
+* get_famous_place{"famous_places_2": "Kochi"}
+	- slot{"famous_places_2": "Kochi"}
+	- get_famous_place
+
+## Generated Story               516
+* get_famous_place{"famous_places_2": "Chennai"}
+	- slot{"famous_places_2": "Chennai"}
+	- get_famous_place
+
+## Generated Story                517
+* get_famous_place{"famous_places_2": "Hyderabad"}
+	- slot{"famous_places_2": "Hyderabad"}
+	- get_famous_place
+
+## Generated Story                 518
+* get_famous_place{"famous_places_2": "Agra"}
+	- slot{"famous_places_2": "Agra"}
+	- get_famous_place
+
+## Generated Story                  519
+* get_famous_place{"famous_places_2": "Kashmir"}
+	- slot{"famous_places_2": "Kashmir"}
+	- get_famous_place
+
+## Generated Story                   520
+* get_famous_place{"famous_places_2": "Srinagar"}
+	- slot{"famous_places_2": "Srinagar"}
+	- get_famous_place
+
+## Generated Story                    521
+* get_famous_place{"famous_places_2": "Chandigarh"}
+	- slot{"famous_places_2": "Chandigarh"}
+	- get_famous_place
+
+## Generated Story                     522
+* get_famous_place{"famous_places_2": "Mohali"}
+	- slot{"famous_places_2": "Mohali"}
+	- get_famous_place
+
+## Generated Story                      523
+* get_famous_place{"famous_places_2": "Kolkata"}
+	- slot{"famous_places_2": "Kolkata"}
+	- get_famous_place
+
+## Generated Story                       524
+* get_famous_place{"famous_places_2": "Vishakapatnam"}
+	- slot{"famous_places_2": "Vishakapatnam"}
+	- get_famous_place
+
+## Generated Story                        525
+* get_famous_place{"famous_places_2": "Manglore"}
+	- slot{"famous_places_2": "Manglore"}
+	- get_famous_place
+
+## Generated Story                         526
+* get_famous_place{"famous_places_2": "Udupi"}
+	- slot{"famous_places_2": "Udupi"}
+	- get_famous_place
+
+## Generated Story                          527
+* get_famous_place{"famous_places_2": "Hampi"}
+	- slot{"famous_places_2": "Hampi"}
+	- get_famous_place
+

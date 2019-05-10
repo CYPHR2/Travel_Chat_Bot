@@ -2,21 +2,31 @@
 ---
 actions:
 - utter_greet
-- utter_goodbye
 - utter_ask_location
+- utter_goodbye
 - action_travel
-- utter_ask_user_name
 - utter_greet_with_name
+- utter_ask_user_name
+- get_infoX
 config:
   store_entities_as_slots: true
 entities:
 - location_state
 - location_city
-- location_country
+- famous_place
 - user_name
+- location_country
+- famous_places
+- famous_place_city
 forms: []
 intents:
+- get_user_name:
+    use_entities: true
 - greet:
+    use_entities: true
+- info_famous_place:
+    use_entities: true
+- bye:
     use_entities: true
 - goodbye:
     use_entities: true
@@ -24,9 +34,15 @@ intents:
     use_entities: true
 - ask_tourist_spot_country:
     use_entities: true
-- get_user_name:
-    use_entities: true
 slots:
+  famous_place:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  famous_place_city:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   location_city:
     auto_fill: true
     initial_value: null
@@ -44,89 +60,14 @@ slots:
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
 templates:
+  perform_custom_action_for_famous_place:
+  - text: oryr irir  famous
   utter_ask_location:
   - text: In what location?
   utter_ask_tourist_spot_country:
-  - text: 'Here are some famous places in '
+  - text: Here are some famous places in
   utter_ask_user_name:
-  - text: '-'
-  - text: "'"
-  - text: h
-  - text: e
-  - text: l
-  - text: l
-  - text: o
-  - text: ' '
-  - text: u
-  - text: s
-  - text: e
-  - text: r
-  - text: ','
-  - text: b
-  - text: e
-  - text: f
-  - text: o
-  - text: r
-  - text: e
-  - text: ' '
-  - text: w
-  - text: e
-  - text: ' '
-  - text: g
-  - text: o
-  - text: ' '
-  - text: a
-  - text: h
-  - text: e
-  - text: a
-  - text: d
-  - text: ','
-  - text: l
-  - text: e
-  - text: t
-  - text: s
-  - text: ' '
-  - text: p
-  - text: e
-  - text: r
-  - text: s
-  - text: o
-  - text: 'n'
-  - text: l
-  - text: i
-  - text: z
-  - text: e
-  - text: ' '
-  - text: I
-  - text: "'"
-  - text: m
-  - text: ' '
-  - text: T
-  - text: h
-  - text: a
-  - text: 'n'
-  - text: o
-  - text: s
-  - text: ' '
-  - text: ','
-  - text: w
-  - text: h
-  - text: a
-  - text: t
-  - text: ' '
-  - text: i
-  - text: s
-  - text: ' '
-  - text: 'y'
-  - text: o
-  - text: u
-  - text: r
-  - text: ' '
-  - text: 'n'
-  - text: a
-  - text: m
-  - text: e
-  - text: "'"
+  - text: hello user,before we go ahead,lets personlize I'm Thanos ,what is your name
   utter_goodbye:
   - text: Talk to you later.
   - text: Bye bye :(
