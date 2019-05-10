@@ -10,7 +10,7 @@ class ActionTravel(Action):
 		return 'action_travel'
 	def run(self,dispatcher,tracker,domain):
 		from apixu.client import ApixuClient
-		api_key = '92ee3cfdbca94baba0c190805190305'
+		api_key = '92ee3cfdbca94b0707aba0c190805190305'
 		client = ApixuClient(api_key)
 		
 		loc = tracker.get_slot('location_state')
