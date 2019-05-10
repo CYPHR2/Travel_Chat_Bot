@@ -330,6 +330,22 @@
         "text": "what is the weather in kerala"
       },
       {
+        "intent": "ask_weather",
+        "text": "what is the weather there"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "goa",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "what is the weather in goa"
+      },
+      {
         "intent": "ask_whoisit",
         "text": "who is this"
       },
@@ -1686,6 +1702,18 @@
         "text": "what are tourist attraction in goa"
       },
       {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "goa",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "what are tourist attraction in goa"
+      },
+      {
         "intent": "get_user_name",
         "entities": [
           {
@@ -2564,6 +2592,10 @@
       {
         "intent": "greet",
         "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
       },
       {
         "intent": "info_famous_place",

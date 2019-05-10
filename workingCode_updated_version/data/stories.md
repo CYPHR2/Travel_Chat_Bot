@@ -2803,3 +2803,20 @@
 * ask_weather{"famous_places_2": "kerala"}
     - slot{"famous_places_2": "kerala"}
 
+## Generated Story -6971415226422694341
+* get_famous_place{"famous_places_2": "goa"}
+    - slot{"famous_places_2": "goa"}
+    - get_famous_place
+* ask_weather
+    - ask_weather
+    - slot{"location": "goa"}
+
+## Generated Story 3498243650517934991
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* ask_weather{"famous_places_2": "goa"}
+    - slot{"famous_places_2": "goa"}
+    - ask_weather
+    - slot{"weather_location": "goa"}
+

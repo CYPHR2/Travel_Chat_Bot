@@ -81,6 +81,8 @@
 - whats the weather in berlin?
 - how's the weather in berlin
 - what is the weather in [kerala](famous_places_2)
+- what is the weather there
+- what is the weather in [goa](famous_places_2)
 
 ## intent:ask_whoisit
 - who is this
@@ -258,6 +260,7 @@
 - What are the tourist attractions in [Udupi](famous_places_2)
 - What are the tourist attractions in [Hampi](famous_places_2)
 - what are tourist attraction in [goa](famous_places_2)
+- what are tourist attraction in [goa](famous_places_2)
 
 ## intent:get_user_name
 - my name is [hulk]('user_name')
@@ -390,6 +393,7 @@
 - hi
 - hi
 - hey there
+- hi
 
 ## intent:info_famous_place
 - Give me information about [bommanhalli](famous_place)
@@ -2333,3 +2337,6 @@
 - tell me about [kerala](famous_place)
 - give me information about [Sunburn](famous_place:sunburn)
 - give me information about [taj_mahal](famous_place)
+
+## synonym:sunburn
+- Sunburn

@@ -38,14 +38,15 @@ class ActionWeather(Action):
 		return 'ask_weather'
 	def run(self,dispatcher,tracker,domain):
 		from apixu.client import ApixuClient
-		api_key = '92ee3cfdbca94baba0c190805190305'
+		api_key = '92ee3cfdbca94ba07071998ba0c190805190305'
 		print('tttttttttttttttttttttttttttttttttt')		
 		client = ApixuClient(api_key)
-		try:
+		if tracker.get_slot('famous_place') != None :
 			loc = tracker.get_slot('famous_place')
-		except:
+		else:
 			loc = tracker.get_slot('famous_places_2')
-		current = client.current(q = loc)
+	
+		current = client.current(q = str(loc))
 		
 		country = current['location']['country']
 		city = current['location']['name']
@@ -55,9 +56,10 @@ class ActionWeather(Action):
 		wind_mph = current['current']['wind_mph']
 
 		response = """It is currently {} in {} at the moment. The temperature is {} degrees, the humidity is {}% and the wind speed is {} mph.""".format(condition, city, temperature_c, humidity, wind_mph)
-		print("&&&&&&&&&&&&&&&&&&&&&&&&&&")		
-		dispatcher.utter_message(response)
-		return [SlotSet('location',loc)]
+		print("&&&&&&&&&&&&&&&&&&&&&&&&&&")
+		print(str(loc))		
+		dispatcher.utter_message("The Weather --->{} ".format(response))
+		return [SlotSet('weather_location',loc)]
 		
 class ActionGetInfo(Action):
 	def name(self):
@@ -72,7 +74,7 @@ class ActionGetInfo(Action):
 			#print(data)
 			response = data
 			dispatcher.utter_message(response)
-			#return [SlotSet('famous_place_city'),cityName]
+			#return [SlotSet('famous_place_city',cityName)]
 			return []
 		except Exception as ex:
 			print("Encountred Exception :--"+str(ex))
