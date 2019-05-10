@@ -318,6 +318,18 @@
         "text": "how's the weather in berlin"
       },
       {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "kerala",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "what is the weather in kerala"
+      },
+      {
         "intent": "ask_whoisit",
         "text": "who is this"
       },
@@ -652,6 +664,1026 @@
       {
         "intent": "deny",
         "text": "neither of these"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Jaipur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Jaipur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Udaipur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Udaipur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Jodhpur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Jodhpur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Jaisalmer",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Jaisalmer"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Pushkar",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Pushkar"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Ajmer",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Ajmer"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "Goa",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Goa"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Delhi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Delhi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Mumbai",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Mumbai"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Pune",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Pune"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Jammu",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Jammu"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Belgaum",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Belgaum"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Bangalore",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Bangalore"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Ladakh",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Ladakh"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Wayanad",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Wayanad"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Kochi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Kochi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Chennai",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Chennai"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Hyderabad",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Hyderabad"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Agra",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Agra"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Kashmir",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Kashmir"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Srinagar",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Srinagar"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "Chandigarh",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Chandigarh"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Mohali",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Mohali"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Kolkata",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Kolkata"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 44,
+            "value": "Vishakapatnam",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Vishakapatnam"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Manglore",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Manglore"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Udupi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Udupi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Hampi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the famouse places in Hampi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Jaipur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Jaipur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Udaipur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Udaipur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Jodhpur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Jodhpur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Jaisalmer",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Jaisalmer"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Pushkar",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Pushkar"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Ajmer",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Ajmer"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "Goa",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Goa"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Delhi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Delhi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Mumbai",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Mumbai"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Pune",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Pune"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Jammu",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Jammu"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Belgaum",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Belgaum"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Bangalore",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Bangalore"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Ladakh",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Ladakh"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Wayanad",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Wayanad"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Kochi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Kochi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Chennai",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Chennai"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Hyderabad",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Hyderabad"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Agra",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Agra"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Kashmir",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Kashmir"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Srinagar",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Srinagar"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "Chandigarh",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Chandigarh"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Mohali",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Mohali"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Kolkata",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Kolkata"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 44,
+            "value": "Vishakapatnam",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Vishakapatnam"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Manglore",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Manglore"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Udupi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Udupi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Hampi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist places in Hampi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Jaipur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Jaipur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Udaipur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Udaipur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Jodhpur",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Jodhpur"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Jaisalmer",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Jaisalmer"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Pushkar",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Pushkar"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Ajmer",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Ajmer"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 39,
+            "value": "Goa",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Goa"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Delhi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Delhi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Mumbai",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Mumbai"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "Pune",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Pune"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Jammu",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Jammu"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Belgaum",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Belgaum"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Bangalore",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Bangalore"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Ladakh",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Ladakh"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Wayanad",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Wayanad"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Kochi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Kochi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Chennai",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Chennai"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Hyderabad",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Hyderabad"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "Agra",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Agra"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Kashmir",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Kashmir"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 44,
+            "value": "Srinagar",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Srinagar"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 46,
+            "value": "Chandigarh",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Chandigarh"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Mohali",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Mohali"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Kolkata",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Kolkata"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 49,
+            "value": "Vishakapatnam",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Vishakapatnam"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 44,
+            "value": "Manglore",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Manglore"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Udupi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Udupi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Hampi",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "What are the tourist attractions in Hampi"
+      },
+      {
+        "intent": "get_famous_place",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "goa",
+            "entity": "famous_places_2"
+          }
+        ],
+        "text": "what are tourist attraction in goa"
       },
       {
         "intent": "get_user_name",
@@ -1194,6 +2226,18 @@
         "text": "my name is gamora"
       },
       {
+        "intent": "get_user_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "duck",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is duck"
+      },
+      {
         "intent": "greet",
         "text": "Hi"
       },
@@ -1516,6 +2560,10 @@
       {
         "intent": "greet",
         "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
       },
       {
         "intent": "info_famous_place",
@@ -24786,1016 +25834,39 @@
         "text": "tell me about kerala"
       },
       {
-        "intent": "get_famous_places",
+        "intent": "info_famous_place",
         "entities": [
           {
-            "start": 31,
-            "end": 37,
-            "value": "Jaipur",
-            "entity": "famous_places_2"
+            "start": 26,
+            "end": 33,
+            "value": "sunburn",
+            "entity": "famous_place"
           }
         ],
-        "text": "What are the famouse places in Jaipur"
+        "text": "give me information about Sunburn"
       },
       {
-        "intent": "get_famous_places",
+        "intent": "info_famous_place",
         "entities": [
           {
-            "start": 31,
-            "end": 38,
-            "value": "Udaipur",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Udaipur"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Jodhpur",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Jodhpur"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 40,
-            "value": "Jaisalmer",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Jaisalmer"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Pushkar",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Pushkar"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Ajmer",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Ajmer"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 34,
-            "value": "Goa",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Goa"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Delhi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Delhi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 37,
-            "value": "Mumbai",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Mumbai"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
+            "start": 26,
             "end": 35,
-            "value": "Pune",
-            "entity": "famous_places_2"
+            "value": "taj_mahal",
+            "entity": "famous_place"
           }
         ],
-        "text": "What are the famouse places in Pune"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Jammu",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Jammu"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Belgaum",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Belgaum"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 40,
-            "value": "Bangalore",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Bangalore"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 37,
-            "value": "Ladakh",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Ladakh"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Wayanad",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Wayanad"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Kochi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Kochi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Chennai",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Chennai"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 40,
-            "value": "Hyderabad",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Hyderabad"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 35,
-            "value": "Agra",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Agra"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Kashmir",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Kashmir"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 39,
-            "value": "Srinagar",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Srinagar"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 41,
-            "value": "Chandigarh",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Chandigarh"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 37,
-            "value": "Mohali",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Mohali"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Kolkata",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Kolkata"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 44,
-            "value": "Vishakapatnam",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Vishakapatnam"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 39,
-            "value": "Manglore",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Manglore"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Udupi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Udupi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Hampi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the famouse places in Hampi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 37,
-            "value": "Jaipur",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Jaipur"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Udaipur",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Udaipur"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Jodhpur",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Jodhpur"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 40,
-            "value": "Jaisalmer",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Jaisalmer"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Pushkar",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Pushkar"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Ajmer",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Ajmer"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 34,
-            "value": "Goa",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Goa"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Delhi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Delhi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 37,
-            "value": "Mumbai",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Mumbai"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 35,
-            "value": "Pune",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Pune"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Jammu",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Jammu"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Belgaum",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Belgaum"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 40,
-            "value": "Bangalore",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Bangalore"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 37,
-            "value": "Ladakh",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Ladakh"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Wayanad",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Wayanad"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Kochi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Kochi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Chennai",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Chennai"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 40,
-            "value": "Hyderabad",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Hyderabad"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 35,
-            "value": "Agra",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Agra"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Kashmir",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Kashmir"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 39,
-            "value": "Srinagar",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Srinagar"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 41,
-            "value": "Chandigarh",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Chandigarh"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 37,
-            "value": "Mohali",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Mohali"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Kolkata",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Kolkata"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 44,
-            "value": "Vishakapatnam",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Vishakapatnam"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 39,
-            "value": "Manglore",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Manglore"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Udupi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Udupi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "Hampi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist places in Hampi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 42,
-            "value": "Jaipur",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Jaipur"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Udaipur",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Udaipur"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Jodhpur",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Jodhpur"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 45,
-            "value": "Jaisalmer",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Jaisalmer"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Pushkar",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Pushkar"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 41,
-            "value": "Ajmer",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Ajmer"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 39,
-            "value": "Goa",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Goa"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 41,
-            "value": "Delhi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Delhi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 42,
-            "value": "Mumbai",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Mumbai"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 40,
-            "value": "Pune",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Pune"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 41,
-            "value": "Jammu",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Jammu"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Belgaum",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Belgaum"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 45,
-            "value": "Bangalore",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Bangalore"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 42,
-            "value": "Ladakh",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Ladakh"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Wayanad",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Wayanad"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 41,
-            "value": "Kochi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Kochi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Chennai",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Chennai"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 45,
-            "value": "Hyderabad",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Hyderabad"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 40,
-            "value": "Agra",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Agra"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Kashmir",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Kashmir"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 44,
-            "value": "Srinagar",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Srinagar"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 46,
-            "value": "Chandigarh",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Chandigarh"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 42,
-            "value": "Mohali",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Mohali"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Kolkata",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Kolkata"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 49,
-            "value": "Vishakapatnam",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Vishakapatnam"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 44,
-            "value": "Manglore",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Manglore"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 41,
-            "value": "Udupi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Udupi"
-      },
-      {
-        "intent": "get_famous_places",
-        "entities": [
-          {
-            "start": 36,
-            "end": 41,
-            "value": "Hampi",
-            "entity": "famous_places_2"
-          }
-        ],
-        "text": "What are the tourist attractions in Hampi"
+        "text": "give me information about taj_mahal"
       }
     ],
     "regex_features": [],
     "lookup_tables": [],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "sunburn",
+        "synonyms": [
+          "Sunburn"
+        ]
+      }
+    ]
   }
 }

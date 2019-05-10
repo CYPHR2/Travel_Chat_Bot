@@ -8,20 +8,8 @@
 ## story 03
 *inform
 	-utter_ask_location
-##story 04
-*inform
-	-action_travel
 
 
-	
-## Generated Story -4935090057311362478
-* greet
-    - utter_greet
-* inform{"location_state": "kerala"}
-    - action_travel
-    - action_travel
-    - action_travel
-    - action_restart
 
 ## Generated Story 5204431835142627354
 * greet
@@ -2795,4 +2783,23 @@
 * get_famous_place{"famous_places_2": "Hampi"}
 	- slot{"famous_places_2": "Hampi"}
 	- get_famous_place
+
+## Generated Story 6732745779570121920
+* greet
+    - utter_greet
+    - utter_ask_user_name
+* get_user_name{"user_name": "duck"}
+    - slot{"user_name": "duck"}
+    - utter_greet_with_name
+* get_famous_places{"famous_places_2": "goa"}
+    - slot{"famous_places_2": "goa"}
+    - get_famous_place
+* info_famous_place{"famous_place": "sunburn"}
+    - slot{"famous_place": "sunburn"}
+    - get_infoX
+* info_famous_place{"famous_place": "taj_mahal"}
+    - slot{"famous_place": "taj_mahal"}
+    - get_infoX
+* ask_weather{"famous_places_2": "kerala"}
+    - slot{"famous_places_2": "kerala"}
 

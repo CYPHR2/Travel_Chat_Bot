@@ -33,16 +33,19 @@ import operator
 #				dispatcher.utter_message(a)
 #			return keyword
 
-class ActionTravel(Action):
+class ActionWeather(Action):
 	def name(self):
-		return 'action_travel'
+		return 'ask_weather'
 	def run(self,dispatcher,tracker,domain):
 		from apixu.client import ApixuClient
 		api_key = '92ee3cfdbca94baba0c190805190305'
+		print('tttttttttttttttttttttttttttttttttt')		
 		client = ApixuClient(api_key)
-		
-		loc = tracker.get_slot('location_state')
-		current = client.gerCurrentWeather(q = loc)
+		try:
+			loc = tracker.get_slot('famous_place')
+		except:
+			loc = tracker.get_slot('famous_places_2')
+		current = client.current(q = loc)
 		
 		country = current['location']['country']
 		city = current['location']['name']
@@ -52,7 +55,7 @@ class ActionTravel(Action):
 		wind_mph = current['current']['wind_mph']
 
 		response = """It is currently {} in {} at the moment. The temperature is {} degrees, the humidity is {}% and the wind speed is {} mph.""".format(condition, city, temperature_c, humidity, wind_mph)
-						
+		print("&&&&&&&&&&&&&&&&&&&&&&&&&&")		
 		dispatcher.utter_message(response)
 		return [SlotSet('location',loc)]
 		
@@ -81,5 +84,7 @@ class GetFamousPlaces(Action):
 
 	def run(self, dispatcher, tracker, domain):		
 		cityName = tracker.get_slot('famous_places_2')
-		dispatcher.utter_message(F.getFamousPlaces(cityName))
+		response = F.getFamousPlaces(cityName)
+		print("***********************************************")
+		dispatcher.utter_message("-----{}".format(response))
 		return []
