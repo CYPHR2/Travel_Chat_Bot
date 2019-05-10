@@ -38,7 +38,7 @@ class ActionWeather(Action):
 		return 'ask_weather'
 	def run(self,dispatcher,tracker,domain):
 		from apixu.client import ApixuClient
-		api_key = '92ee3cfdbca94ba07071998ba0c190805190305'
+		api_key = '92ee3cfdbca94ba07a701998ba0c190805190305'
 		print('tttttttttttttttttttttttttttttttttt')		
 		client = ApixuClient(api_key)
 		if tracker.get_slot('famous_place') != None :
