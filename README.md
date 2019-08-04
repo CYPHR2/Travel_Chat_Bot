@@ -1,10 +1,10 @@
 ## Travel Chat Bot 
 This is a generative type of ChatBot being built for travel domain by making use machine learning and natural language techniques.
 
-## workingCode 
-Contains trail version of the code.
+## workingCode directory
+Contains initial forked version of the code.
 
-## workingCode_updated_version
+## workingCode_updated_version directory
 Contains current working code for updated versions of frameworks that are being currently used.
 
 ## Coding Standards that are employed
@@ -20,7 +20,8 @@ Contains current working code for updated versions of frameworks that are being 
 
 ## remainder notes 
 1. more features to be added
-2. remove the key for api sevenseven
+2. remove the api client api key to  suit  the client id
+
 
 
 
